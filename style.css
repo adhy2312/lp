@@ -1,0 +1,221 @@
+/* This is the CSS file for the landing page */
+/* * {
+    outline: red solid 2px;
+} */
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 313px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    width: 450px;
+
+}
+
+.hero-content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+.content {
+    width: 350px;
+    height: 300px;
+    
+}
+
+.placeholder {
+    width: 450px;
+    height: 200px;
+    background-color: #8a8fa49f;
+    text-align: center;
+    line-height: 200px;
+    
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 39px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+}
+
+.hero-subtext {
+    color: #D1D5DB;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.first-button {
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    border: none;
+    line-height: 14px;
+}
+
+.second-section-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #3B82F6; /* 👈 adds a solid blue line around the box */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 8px;
+}
+
+.text-container {
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 0.5%;
+}
+
+.subtext {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 90%;
+    color: #1818189f;   
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-quote {
+    display: flex;
+    font-size: 30px;
+    color: #1818189f;
+    margin-top: 80px;
+}
+
+.main-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 1000;
+    width: 620px;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-bottom: 70px;   
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: white;
+    color: white;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.third-section-content {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    width: 830px;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+.second-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    line-height: 14px;
+}
+
+.call-to-action {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 0;
+    width: 630px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call-to-action2 {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    font-size: 16px;
+    width: 900px;
+    color: #e7eef8;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #c1c5cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-size: 14px;
+}
